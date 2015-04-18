@@ -4,17 +4,24 @@
 
 A group of locust are ready to attack a paddy field. The field is a two dimensional matrix with each element representing a plant. The field is bounded by an electric fence. So any locust crossing the boundary of the field gets killed. The insects can move only in a particular direction to infect the crops. The movement of the insects is defined as:
 	
-A|B|C
-D| |E
-F|G|H
+		A|B|C
+		D| |E
+		F|G|H
 
 A: North West 
+
 B: North
+
 C: North East
+
 D: West
+
 E: East
+
 F: South West
+
 G: South
+
 H: South East
 
 At a given unit of time the insect can infect only a single plant. With each non-infected plant the locust infects, its strength increases by one unit. At a given time the number of insects jumping on a plant can be more than one, in this case the strongest of the insects survives and the others get killed. If more than one insect come out to be strongest then all those insects survive and rest get killed. All surviving insects each increase their strength by one unit if the plant was previously uninfected.
