@@ -25,29 +25,30 @@ The id of the winner terminated by a newline.
 
 Input:
 
-5 4
-D 2 0 D 0 2 T D 3 0
-T D 6 0 D 0 3 D 2 0
-D 0 -1 D 1 0 G D 0 -1
-D 0 3 D 0 2 D 0 2 D 0 3
-D -1 0 T D 0 -3 T
-4
-1 4 2
-2 2 0
-3 0 3
-4 2 3
+		5 4
+		D 2 0 D 0 2 T D 3 0
+		T D 6 0 D 0 3 D 2 0
+		D 0 -1 D 1 0 G D 0 -1
+		D 0 3 D 0 2 D 0 2 D 0 3
+		D -1 0 T D 0 -3 T
+		4
+		1 4 2
+		2 2 0
+		3 0 3
+		4 2 3
 
 Output:
 
-4
+		4
 
 Input:
 
-1 2
-G T
-2
-1 0 1
-2 0 0
+		1 2
+		G T
+		2
+		1 0 1
+		2 0 0
+
 Output:
 
-2
+		2
