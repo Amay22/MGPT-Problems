@@ -1,6 +1,10 @@
+
 import java.util.Scanner;
+
 class cell {
+
     int dispR, dispC;
+
     public cell(int r, int c) {
         dispR = r;
         dispC = c;
@@ -8,16 +12,20 @@ class cell {
 }
 
 class player {
-    private static int goldR ,goldC;
+
+    private static int goldR, goldC;
     private int posR, posC;
+
     public static void setGold(int r, int c) {
         goldR = r;
         goldC = c;
     }
+
     public player(int r, int c) {
         posR = r;
         posC = c;
     }
+
     public boolean isLucky() {
         return (posR == goldR) && (posC == goldC);
     }
@@ -32,11 +40,11 @@ class player {
 class maze {
 
     static cell[][] arr;
-    static int R , C;
+    static int R, C;
     private static int numPlayer;
     private static player[] pl;
 
-    public static void read()throws Exception {
+    public static void read() throws Exception {
         Scanner sin = new Scanner(System.in);
         R = sin.nextInt();
         C = sin.nextInt();
@@ -60,7 +68,7 @@ class maze {
         }
     }
 
-    public static boolean anyWinner() {        
+    public static boolean anyWinner() {
         for (int i = 0; i < numPlayer; i++) {
             if (pl[i].isLucky()) {
                 System.out.println(i + 1);
@@ -78,7 +86,8 @@ class maze {
 }
 
 public class gold {
-    public static void main(String[] args)throws Exception {
+
+    public static void main(String[] args) throws Exception {
         System.out.println("INPUT");
         maze.read();
         System.out.println("\nOUTPUT\n");
@@ -87,3 +96,4 @@ public class gold {
         }
     }
 }
+
