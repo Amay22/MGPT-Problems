@@ -4,9 +4,10 @@
 
 A group of locust are ready to attack a paddy field. The field is a two dimensional matrix with each element representing a plant. The field is bounded by an electric fence. So any locust crossing the boundary of the field gets killed. The insects can move only in a particular direction to infect the crops. The movement of the insects is defined as:
 	
-		A|B|C
-		D| |E
-		F|G|H
+| A | B | C |
+|---|---|---|
+| D |   | E |
+| F | G | H |
 
 A: North West 
 
