@@ -6,7 +6,8 @@ In the arid deserts of Akrathoum there is an acute scarcity of water. The king h
 
 Consider the first sample input. There are three jars of 8, 5, and 3 litres. Initially the 8 litres jar is full, while the other two are empty. 4 litres of water needs to be measured. So one can arrive at it in the following manner as shown in the table below by transferring water from one jar to another. The values in the second, third and fourth columns indicate the volume of water in the respective jar at the end of each step.
 
-| Step Number | 8 litre jar | 5 litre jar | 3 litre jar | |-------------|-------------|-------------|-------------|
+| Step Number | 8 litre jar | 5 litre jar | 3 litre jar | 
+|-------------|-------------|-------------|-------------|
 | Initial     | 8           |   0         | 0           |
 |1 			  |	3           |	5         |	0           |
 |2            |	3           |	2         |	3           |
