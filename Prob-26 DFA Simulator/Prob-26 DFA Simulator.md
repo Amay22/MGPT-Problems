@@ -21,7 +21,7 @@ T is the transition function given by the following matrix
 |----|----|----|
 | q1 | q1 | q2 |
 | q2 | q3 | q2 |
-| q3 | q2 |    |
+| q3 | q2 | q2 |
 
 F = { q2 }
 
