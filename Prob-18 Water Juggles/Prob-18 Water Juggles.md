@@ -6,15 +6,14 @@ In the arid deserts of Akrathoum there is an acute scarcity of water. The king h
 
 Consider the first sample input. There are three jars of 8, 5, and 3 litres. Initially the 8 litres jar is full, while the other two are empty. 4 litres of water needs to be measured. So one can arrive at it in the following manner as shown in the table below by transferring water from one jar to another. The values in the second, third and fourth columns indicate the volume of water in the respective jar at the end of each step.
 
-|Step Number| 	8 litre jar| 	5 litre jar| 	3 litre jar|
-|-|-|-|-|
-|Initial |	8 |	0 |	0|
-|1 |	3 |	5 |	0 |
-|2 |	3 |	2 |	3 |
-|3 |	6 |	2 |	0 |
-|4 |    6 | 0 |	2 |
-|5 |	1 |	5 |	2 |
-|6 | 	1 |	4 |	3 |
+| Step Number | 8 litre jar | 5 litre jar | 3 litre jar | |-------------|-------------|-------------|-------------|
+| Initial     | 8           |   0         | 0           |
+|1 			  |	3           |	5         |	0           |
+|2            |	3           |	2         |	3           |
+|3            |	6           |	2         |	0           |
+|4            | 6           |   0         |	2           |
+|5            |	1           |	5         |	2           |
+|6            | 1           |	4         |	3           |
 
 The table above shows the minimum number of transfers required to measure 4 litres of water. There may be other sequences, which also result in the measurement of exactly 4 litres, but they will all require 6 transfers or more.
 NOTE: You are allowed a maximum of six (6) transfers to do the job.
